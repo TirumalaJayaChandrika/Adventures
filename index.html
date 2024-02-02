@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <div class="nav-links">
+            <div class="active"><a href="#"></a>Home</div>
+            <div class="nav-box"><a href="#"></a>Tours</div>
+            <div class="nav-box"><a href="#"></a>Explore</div>
+            <div class="nav-box"><a href="#"></a>About</div>
+            <div class="btn"><a href="#"></a>Contact</div>
+        </div>
+        <img src="./img/menu-btn.png" alt="menu-btn" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colurful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+    <section class = "events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img\img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Everest Base Camp trek offers breathtaking views of the world's highest peak, Mount Everest. This iconic trek takes you through picturesque landscapes, Sherpa villages, and challenging terrain, culminating in a memorable Himalayan adventure.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img\img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Immerse yourself in nature's beauty with walking holidays. Explore scenic trails, breathe in fresh air, and rejuvenate your soul. From lush forests to mountain vistas, these journeys offer tranquil escapes.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Embark on a global adventure. Traverse diverse landscapes, savor unique cultures, and create lasting memories. From ancient wonders to modern marvels, travel unveils the richness of our world.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING DESTINATION</h1>
+                <div class="line"></div>
+                <p> Discover the allure of hill areas and waterfalls in upcoming destinations and experience the serenity of misty mountains, lush landscapes, and cascading waters, creating a perfect blend of nature's wonders.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="">
+                    <img src="./img/img4.png" alt="">
+                    <img src="./img/img5.png" alt="">
+                    <img src="./img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright @ 2023 Outdoor Adventure</p>
+        <p>The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+        
+    </footer>
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navLinks = document.querySelector('.nav-links')
+        menubtn.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
